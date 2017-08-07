@@ -271,6 +271,6 @@ if __name__ == "__main__":
     # Extract RGB Images from Videos and Build new image files that we can use as our RGB data input files.
     extractRGB(opt)
     # Extract Optical Flow Images from Videos and Build new image files that we can use as our optical flow data input files
-    extractOpticalFlow(opt)
+    # extractOpticalFlow(opt)
     # LMDB? Need to Caffe?
     print('Done.')
